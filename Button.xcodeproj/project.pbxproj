@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		980D984D1506FC4600B23899 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 980D984C1506FC4600B23899 /* mail.png */; };
-		980D985015070A0500B23899 /* ximage.png in Resources */ = {isa = PBXBuildFile; fileRef = 980D984F15070A0500B23899 /* ximage.png */; };
+		9803B3E51507377300384AAB /* Mailbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 9803B3E41507377300384AAB /* Mailbox.png */; };
+		9803B3F015073F7700384AAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9803B3EF15073F7700384AAB /* QuartzCore.framework */; };
 		98B3E68B1506EEC000CB7D9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B3E68A1506EEC000CB7D9C /* UIKit.framework */; };
 		98B3E68D1506EEC000CB7D9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B3E68C1506EEC000CB7D9C /* Foundation.framework */; };
 		98B3E68F1506EEC000CB7D9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B3E68E1506EEC000CB7D9C /* CoreGraphics.framework */; };
@@ -17,12 +17,11 @@
 		98B3E69B1506EEC000CB7D9C /* ButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B3E69A1506EEC000CB7D9C /* ButtonAppDelegate.m */; };
 		98B3E69E1506EEC000CB7D9C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B3E69C1506EEC000CB7D9C /* MainStoryboard.storyboard */; };
 		98B3E6A11506EEC000CB7D9C /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B3E6A01506EEC000CB7D9C /* ButtonViewController.m */; };
-		98B3E6A81506F47600CB7D9C /* icon_114x114_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98B3E6A71506F47600CB7D9C /* icon_114x114_2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		980D984C1506FC4600B23899 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
-		980D984F15070A0500B23899 /* ximage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ximage.png; sourceTree = "<group>"; };
+		9803B3E41507377300384AAB /* Mailbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mailbox.png; sourceTree = "<group>"; };
+		9803B3EF15073F7700384AAB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		98B3E6861506EEC000CB7D9C /* Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Button.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B3E68A1506EEC000CB7D9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98B3E68C1506EEC000CB7D9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +35,6 @@
 		98B3E69D1506EEC000CB7D9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		98B3E69F1506EEC000CB7D9C /* ButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
 		98B3E6A01506EEC000CB7D9C /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
-		98B3E6A71506F47600CB7D9C /* icon_114x114_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_114x114_2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9803B3F015073F7700384AAB /* QuartzCore.framework in Frameworks */,
 				98B3E68B1506EEC000CB7D9C /* UIKit.framework in Frameworks */,
 				98B3E68D1506EEC000CB7D9C /* Foundation.framework in Frameworks */,
 				98B3E68F1506EEC000CB7D9C /* CoreGraphics.framework in Frameworks */,
@@ -56,9 +55,7 @@
 		98B3E67B1506EEC000CB7D9C = {
 			isa = PBXGroup;
 			children = (
-				980D984F15070A0500B23899 /* ximage.png */,
-				980D984C1506FC4600B23899 /* mail.png */,
-				98B3E6A71506F47600CB7D9C /* icon_114x114_2.jpg */,
+				9803B3E41507377300384AAB /* Mailbox.png */,
 				98B3E6901506EEC000CB7D9C /* Button */,
 				98B3E6891506EEC000CB7D9C /* Frameworks */,
 				98B3E6871506EEC000CB7D9C /* Products */,
@@ -76,6 +73,7 @@
 		98B3E6891506EEC000CB7D9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9803B3EF15073F7700384AAB /* QuartzCore.framework */,
 				98B3E68A1506EEC000CB7D9C /* UIKit.framework */,
 				98B3E68C1506EEC000CB7D9C /* Foundation.framework */,
 				98B3E68E1506EEC000CB7D9C /* CoreGraphics.framework */,
@@ -159,9 +157,7 @@
 			files = (
 				98B3E6951506EEC000CB7D9C /* InfoPlist.strings in Resources */,
 				98B3E69E1506EEC000CB7D9C /* MainStoryboard.storyboard in Resources */,
-				98B3E6A81506F47600CB7D9C /* icon_114x114_2.jpg in Resources */,
-				980D984D1506FC4600B23899 /* mail.png in Resources */,
-				980D985015070A0500B23899 /* ximage.png in Resources */,
+				9803B3E51507377300384AAB /* Mailbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

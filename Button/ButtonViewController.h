@@ -10,8 +10,22 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface ButtonViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIButton *button;
+@property (strong, nonatomic) UIColor *blueBorder;
+@property (strong, nonatomic) UIColor *redBorder;
+@property (strong, nonatomic) CAGradientLayer *blueLayer;
+@property (strong, nonatomic) CAGradientLayer *redLayer;
+@property (strong, nonatomic) UIImage *image;
+@property (strong, nonatomic) CALayer *imageLayer;
+@property (strong, nonatomic) CATextLayer *titleLayer;
+
 - (IBAction)buttonPressed:(UIButton *)sender;
--(IBAction)buttonReleased:(UIButton *)sender;
+- (IBAction)buttonReleased:(UIButton *)sender;
+- (CAGradientLayer *)getBlueGradientLayer;
+- (CAGradientLayer *)getRedGradientLayer;
+- (void)setBorderPropertiesOfButton:(UIColor *)color;
+- (void)createButtonImageLayer;
+- (void)createButtonTitleLayer;
 
 @end
