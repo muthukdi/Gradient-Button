@@ -17,15 +17,17 @@
 @property (strong, nonatomic) CAGradientLayer *blueLayer;
 @property (strong, nonatomic) CAGradientLayer *redLayer;
 @property (strong, nonatomic) UIImage *image;
-@property (strong, nonatomic) CALayer *imageLayer;
-@property (strong, nonatomic) CATextLayer *titleLayer;
+@property (strong, nonatomic) CALayer *blueImageLayer;
+@property (strong, nonatomic) CATextLayer *blueTitleLayer;
+@property (strong, nonatomic) CALayer *redImageLayer;
+@property (strong, nonatomic) CATextLayer *redTitleLayer;
 
 - (IBAction)buttonPressed:(UIButton *)sender;
 - (IBAction)buttonReleased:(UIButton *)sender;
 - (CAGradientLayer *)getBlueGradientLayer;
 - (CAGradientLayer *)getRedGradientLayer;
 - (void)setBorderPropertiesOfButton:(UIColor *)color;
-- (void)createButtonImageLayer;
-- (void)createButtonTitleLayer;
+- (CALayer *)returnButtonImageLayer;
+- (CATextLayer *)returnButtonTitleLayer;
 
 @end
